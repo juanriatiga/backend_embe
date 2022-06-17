@@ -17,7 +17,7 @@ def get_data():
 
 @app.route('/save', methods=['POST'])
 def put_data():
-    resp = save_data(request.json) 
+    response = save_data(request.json) 
     return({'data': '0k'})    
 
     
